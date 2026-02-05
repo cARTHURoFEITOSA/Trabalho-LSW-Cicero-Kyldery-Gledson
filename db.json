@@ -1,0 +1,74 @@
+{
+  "transacoes": [
+    {
+      "id": "1",
+      "titulo": "Salário",
+      "valor": 5000,
+      "data": "2025-01-05",
+      "categoria": "salario",
+      "tipo": "receita"
+    },
+    {
+      "titulo": "Aluguel",
+      "valor": 1000,
+      "data": "2025-01-02",
+      "categoria": "moradia",
+      "tipo": "despesa",
+      "id": "2"
+    },
+    {
+      "id": "948c",
+      "titulo": "Tigrinho",
+      "valor": 500,
+      "data": "2026-02-04",
+      "categoria": "lazer",
+      "tipo": "receita"
+    },
+    {
+      "id": "297f",
+      "titulo": "Dividendos",
+      "valor": 1000,
+      "data": "2026-02-04",
+      "categoria": "outro",
+      "tipo": "receita"
+    }
+  ],
+  "metas": [
+    {
+      "id": "2",
+      "nome": "Férias",
+      "valor": 2000,
+      "atual": 250
+    },
+    {
+      "id": "cbd3",
+      "nome": "Viagem",
+      "valor": 5000,
+      "atual": 0
+    },
+    {
+      "id": "7daa",
+      "nome": "Celular",
+      "valor": 1500,
+      "atual": 500
+    },
+    {
+      "id": "0367",
+      "nome": "notebook",
+      "valor": 500,
+      "atual": 0
+    },
+    {
+      "id": "28c9",
+      "nome": "Carro",
+      "valor": 100,
+      "atual": 0
+    },
+    {
+      "id": "364c",
+      "nome": "Teste Fetch",
+      "valor": 123,
+      "atual": 0
+    }
+  ]
+}

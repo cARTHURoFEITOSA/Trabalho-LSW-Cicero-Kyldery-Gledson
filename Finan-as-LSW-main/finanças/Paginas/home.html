@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>finanças+</title>
+    <link rel="stylesheet" href="../Style/style.css">
+    <link rel="stylesheet" href="../Style/home.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container"><div class="logo">Finanças<span class="mudarCor">+</span></div>
+            <nav>
+                <ul class="abas">
+                    <li> <a href="home.html" class="atual">HOME</a></li>
+                    <li> <a href="gestao.html">GESTÃO</a></li>
+                    <li> <a href="metas.html">METAS</a></li>
+                    <li> <a href="sobre.html">SOBRE</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1>finanças<span class="mudarCorETamanho">+</span></h1>
+        <div class="frase-dinamica" id="frase"></div>
+
+        <div class="cardInicialContainer">
+          <div class="cardInicial">  <a href="gestao.html">Gerenciar dinheiro</a></div>
+          <div class="cardInicial">  <a href="metas.html">Gerenciar metas</a></div>
+        </div>
+
+        <h2 class="topico">Resumo financeiro</h2>
+        <div class="cards-resumo">
+          <div class="card">
+            <h3>Ganhos</h3>
+            <p id="total-receitas">R$ 0,00</p>
+          </div>
+
+          <div class="card">
+            <h3>Gastos</h3>
+            <p id="total-despesas">R$ 0,00</p>
+          </div>
+
+          <div class="card">
+            <h3>Saldo</h3>
+            <p id="saldo-total">R$ 0,00</p>
+          </div>
+      </div>
+
+     <h2 class="topico">Dica financeira</h2>
+        <div class="card">
+            <p>Registre seus gastos diariamente para manter o controle</p>
+        </div> 
+        
+    </main>
+
+     <footer>
+        Finanças+ 2025 &copy - Seu controle financeiro simplificado.
+    </footer>
+
+<script src="../Script/api.js"></script>
+<script src="../Script/frases.js"></script>
+<script src="../Script/resumoGestao.js"></script>
+</body>
+</html>
